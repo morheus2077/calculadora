@@ -88,7 +88,7 @@ function App() {
           <form
           onSubmit={calcular}
           className='flex flex-col  justify-center gap-2 mt-5'>
-            <label className='text-left text-black md:text-2xl lg:text-sm' htmlFor="">Álcool (preço por litro)</label>
+            <label className='text-left text-black md:text-2xl lg:text-sm' htmlFor="">Álcool ( preço por litro)</label>
             <input className='bg-gray-300 w-[330px] md:w-[750px] md:h-14 lg:h-9 lg:w-96 text-black indent-2 md:text-2xl lg:text-xl rounded-sm h-9 font-bold' type="number"
             placeholder='60.90 Mzn'
             min= "1"
@@ -98,7 +98,7 @@ function App() {
             required
              />
             {/* input de gasolina */}
-             <label className='text-left text-black md:text-2xl lg:text-sm' htmlFor="">Gasolina (preço por litro)</label>
+             <label className='text-left text-black md:text-2xl lg:text-sm' htmlFor="">Gasolina ( preço por litro)</label>
             <input className='bg-gray-300 w-[330px] md:w-[750px] md:h-14 lg:h-9 lg:w-96 text-black indent-2 md:text-2xl lg:text-xl rounded-sm h-9 font-bold' type="number"
             placeholder='83.57 Mzn'
             min= "1"
